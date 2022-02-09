@@ -2,25 +2,57 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
     <title>SLGsite</title>
 </head>
 <body>
-    <!-- Хедер: тут содержиться лого, поиск и предложить статью -->
-    <!-- Проверка гита -->
-    <header>
+    <!-- главный хедер -->
+    <header class="header">
+        <!-- сетка, где будут размещаться объекты -->
+        <section class="header__section">
+        <!-- ниже идут различные объекты -->
+            <div class="header_item headerlogopng">
+                <img src="img/logo.png" wight="50" height="50" alt="Логотип">
+            </div>
+            <div class="header__item headerlogo">
+                Smart Lean Group
+            </div>
+            <!-- <div class="header__item headerButton">
+                <a href="#">Статьи</a>
+            </div>
+            <div class="header__item headerButton">
+                <a href="#">Архив журнала</a>
+            </div>
+            <div class="header__item headerButton">
+                <a href="#">Рубрики</a>
+            </div>
+            <div class="header__item headerButton">
+                <a href="#">О редакции</a>
+            </div>
+            <div class="header__item headerButton">
+                <a href="#">Подписаться на рассылку</a>
+            </div> -->
+        </section>
+        <section class="header__section">
+            <input type="text" placeholder="Поиск">
+            <button>Отправить статью</button>
+        </section>
+    </header>
+    <!-- Навигация: кнопочки под хедеров -->
+    <!-- <nav>        
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="">News</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="">About</a></li>
-          </ul>
-    </header>
-    <hr>
-    <!-- Навигация: кнопочки под хедеров -->
-    <nav>
-        
-    </nav>
+        </ul>
+    </nav> -->
     <!-- Информация о сайте, подвал - футер -->
     <footer>
 
