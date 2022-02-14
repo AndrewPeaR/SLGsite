@@ -28,6 +28,7 @@ header {
     justify-content: space-between;
     padding: 15px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 23px;
     /* background-color: rgba(194, 225, 243, 1); */
 }
 
@@ -74,24 +75,24 @@ nav{
     justify-content: center;
 }
 
-ul {
+.ul__nav {
     width: 760px;
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-li {
+.li__nav {
     margin-left: 31px;
     margin-right: 31px;
 }
 
-li:first-child{
+.li__nav:first-child{
     margin-left: 0;
     padding-left: 0px;
 }
 
-li a {
+.li__nav a {
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -101,13 +102,13 @@ li a {
     white-space: nowrap;
 }
 
-li a:link {
+.li__nav a:link {
     color: black;
 }
-li a:visited {
+.li__nav a:visited {
     color: black;
 }
-li a:hover {
+.li__nav a:hover {
     border: 1px solid silver transparent;
     border-radius: 10px;
     background: #8bd3ff;
@@ -117,5 +118,90 @@ li a:hover {
 /* Стили для футера */
 footer {
     display: flex;
-    
+    justify-content: center;
+}
+.footer__wrap {
+    min-height: 177px;
+    max-height: 177px;
+    width: 1016px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo__address {
+    min-width: 51.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo__png img {
+    width: 40px;
+    background-color: #147FC3;
+    border-radius: 5px;
+}
+
+.logo__png p {
+    margin-top: 0;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.logo__png {
+    display: flex;
+    justify-content: flex-start;
+    max-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.logo__address address {
+    padding-bottom: 5px;
+}
+
+.under__nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px; 
+}
+
+.under__nav ul li {
+    margin-bottom: 1.35em;
+    white-space: nowrap;
+}
+
+.ul__contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px; 
+}
+
+.ul__contacts li {
+    margin-bottom: 1.35em;
+    white-space: nowrap;
+}
+
+.vkimg {
+    height: 21px;
+    width: 27px;
+    margin-right: 12px;
+}
+
+.instimg {
+    height: 20px;
+    width: 20px;
+}
+
+.address__name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
 }

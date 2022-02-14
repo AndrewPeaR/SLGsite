@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>SLGsite</title>
 </head>
 
@@ -32,21 +32,50 @@
     </header>
     <!-- Навигация: кнопочки под хедеров -->
     <nav>
-        <ul>
-            <li><a href="">Статьи</a></li>
-            <li><a href="">Архив журнала</a></li>
-            <li><a href="">Рубрики</a></li>
-            <li><a href="">О редакции</a></li>
-            <li><a href="">Подписаться на рассылку</a></li>
+        <ul class="ul__nav">
+            <li class="li__nav"><a href="">Статьи</a></li>
+            <li class="li__nav"><a href="">Архив журнала</a></li>
+            <li class="li__nav"><a href="">Рубрики</a></li>
+            <li class="li__nav"><a href="">О редакции</a></li>
+            <li class="li__nav"><a href="">Подписаться на рассылку</a></li>
         </ul>
     </nav>
     <hr>
     <h2>Это место для контента сайта</h2>
     <hr>
-    тут будет футер, он в процессе производства:)
     <!-- Информация о сайте, подвал - футер -->
+    
+    <!-- TODO:
+    -Выравнять логотипы шапки и футера по одной прямой (см.сетка в фигме) -->
+    
     <footer>
-
+        <div class="footer__wrap">
+            <div class="logo__address">
+                <div class="logo__png">
+                    <img src="img/logo.svg" alt="Logo">
+                    <p>Smart Lean Group</p>
+                </div>
+                <address>
+                    <p class="address__name">Югорский Государственный Университет, 2022</p>
+                </address>
+            </div>
+            <div class="under__nav">
+                <ul>
+                    <li>Статьи</li>
+                    <li>Архив журнала</li>
+                    <li>Авторам</li>
+                    <li>О редакции</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul class="ul__contacts">
+                    <li><strong>Наши контакты</strong></li>
+                    <li>+7 800 555 35 35</li>
+                    <li>pochtatest@mail.ru</li>
+                    <li><img class="vkimg" src="img/vk.svg" alt="VK"> <img class="instimg" src="img/insta.svg" alt="inst"></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 
