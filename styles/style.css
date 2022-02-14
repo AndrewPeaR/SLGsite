@@ -1,7 +1,5 @@
-/* .body {
-    width: 60.5%;
-} */
-
+/* ------------------------------------------------- */
+/* Стили для шапки */
 .header__section input[type=text] {
     background-color: #F8F8F8;
     color: #101010;
@@ -68,7 +66,9 @@ header {
     width: 50px;
     height: 50px;
 }
+/* ------------------------------------------------- */
 
+/* Стили для навигации */
 nav{
     display: flex;
     justify-content: center;
@@ -111,4 +111,11 @@ li a:hover {
     border: 1px solid silver transparent;
     border-radius: 10px;
     background: #8bd3ff;
+}
+/* ------------------------------------------------- */
+
+/* Стили для футера */
+footer {
+    display: flex;
+    
 }
