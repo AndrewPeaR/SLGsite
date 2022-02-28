@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 23px;
+    margin-bottom: 40px;
     margin-top: 15px;
     /* background-color: rgba(194, 225, 243, 1); */
 }
@@ -240,10 +240,11 @@ main {
     /* border: 2px solid silver */
 }
 
-h1 {
+.main__h1 h1 {
     font-size: 64px;
     font-weight: 800;
     line-height: 65px;
+    margin-bottom: 50px;
 }
 
 .main__p {
