@@ -205,3 +205,42 @@ footer {
     font-weight: 300;
     font-size: 16px;
 }
+/* ---------------------------------------------------- */
+
+/* Главный блок main */
+main {
+    margin-top: 65px;
+    margin-bottom: 90px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../img/mainblock.png); */
+}
+
+.main__wrap {
+    background-image: url(../img/mainblock.png);
+    background-size: cover;
+    width: 1160px;
+    height: 540px;
+    /* max-width: 81%; */
+}
+.main__h1 {
+    margin-left: 100px;
+    margin-top: 110px;
+    width: 10px;
+    /* border: 2px solid silver */
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.main__p {
+    width: 367px;
+    margin-left: 100px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+}
