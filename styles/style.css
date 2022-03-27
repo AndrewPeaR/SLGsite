@@ -9,6 +9,19 @@ body {
     margin-right: auto;
 }
 
+.background__archive {
+    width: 100vw;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 681px;
+    background-color: #f5f5f5b9;
+}
+
+.background__archive span {
+    display: none;
+}
+
 /* ------------------------------------------------- */
 /* Стили для шапки */
 .header__section input[type=text] {
