@@ -1,0 +1,65 @@
+body{
+    font-family: 'IBM Plex Sans', Roboto, sans-serif;
+    padding-top: 20px;
+}
+.wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+.header-info-logo{
+    flex: 0 0 58%;
+}
+.header-info-logo{
+    display: flex;
+    align-items:center;
+}
+.logo-text{
+    color: 101010;
+    margin-left: 16px;
+}
+.header-info input{
+    max-width: 210px;
+    height: 50px;
+    background-color: #FDFDFD;
+    border-radius: 30px;
+    padding-left: 30px;
+    outline: none;
+    border: 0;
+    color: #101010;
+}
+.header-info button{
+    max-width: 210px;
+    height: 50px;
+    font-style: 400;
+    text-align: center;
+    color: #FCFCFC;
+    background-color: #1E95FC;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 65px;
+    padding: 15px 37px;
+}
+.nav-wrap{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.nav-wrap > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-item a{
+    color:#101010;
+    text-decoration: none;
+}

@@ -4,131 +4,41 @@
 <head>
     <meta charset="UTF-8">
 
+    <!-- шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=IBM+Plex+Serif:wght@400;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- нормалайзер -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css стили -->
+    <link rel="stylesheet" href="css/style.css">
     <title>SLGsite</title>
 </head>
-
 <body>
-    <!-- главный хедер -->
     <header>
-        <!-- сетка, где будут размещаться объекты -->
-        <section class="header__section">
-            <!-- ниже идут различные объекты -->
-            <div class="header_item headerlogopng">
-                <a href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+        <div class="wrapper">
+            <div class="header-info">
+                <div class="header-info-logo">
+                    <img class="logo" src="img/logo.svg" alt="Logo">
+                    <div class="logo-text">Lean Green Smart</div>
+                </div>
+                <input type="search" name="global-finder" placeholder="Поиск">
+                <button type="button">Отправить статью</button>
             </div>
-            <div class="header__item headerlogo">
-                <a href="index.html" class="headerlogo">Smart Lean Group</a>
-            </div>
-        </section>
-        <section class="header__section">
-            <input type="text" placeholder="Поиск">
-            <button type="button">Отправить статью</button>
-        </section>
+            <nav>
+                <div class="nav-wrap">
+                    <ul>
+                        <li class="nav-item"><a href="#">Статьи</a></a></li>
+                        <li class="nav-item"><a href="#">Архив журнала</a></li>
+                        <li class="nav-item"><a href="#">Авторам</a></li>
+                        <li class="nav-item"><a href="#">О редакции</a></li>
+                        <li class="nav-item"><a href="#">Подписаться на рассылку</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <!-- Навигация: кнопочки под хедеров -->
-    <nav>
-        <ul class="ul__nav">
-            <li class="li__nav"><a href="">Статьи</a></li>
-            <li class="li__nav"><a href="">Архив журнала</a></li>
-            <li class="li__nav"><a href="">Рубрики</a></li>
-            <li class="li__nav"><a href="">О редакции</a></li>
-            <li class="li__nav"><a href="">Подписаться на рассылку</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <div class="main__wrap">
-            <div class="main__h1">
-                <h1>Журнал<wbr/>Название</h1>
-            </div>
-            <div class="main__p">
-                <p>Сюда нужно дописать краткий и привлекающий текст<wbr/> о журнале Smart Lean Group.</p>
-            </div>
-            <div class="main__facts">
-                <div class="main__facts-item">Факт 1</div>
-                <div class="main__facts-item">Факт 2</div>
-                <div class="main__facts-item">Факт 3</div>
-            </div>
-        </div>
-    </main>
-
-    <section class="actualnews">
-        <div class="actualnews__wrap">
-            <div class="actualnews__h2">
-                <h2>Актуальное сегодня</h2>
-            </div>
-            <div class="actualnews__sectionline">
-                <span>t</span>
-                <div class="actualnews__activeline">
-                    <span>t</span>
-                </div>
-            </div>
-            <div class="actualnews__mainblock">
-                <span>t</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="archive">
-        <div class="archive__wrap">
-            <div class="archive__h2">
-                <h2>Об архиве</h2>
-            </div>
-            <div class="archive__sectionline">
-                <span>t</span>
-                <div class="archive__activeline">
-                    <span>t</span>
-                </div>
-                <div class="background__archive">
-                    <span>t</span>
-                </div>
-            </div>
-            <div class="archive__mainblock">
-                <span>t</span>
-            </div>
-            <button class="button__to-archive" name="Перейти в архив" type="button">Перейти в архив</button>
-        </div>
-    </section>
-    <section>
-        <div class="aboutauthor__wrap">
-            
-        </div>
-    </section>
-    <!-- Информация о сайте, подвал - футер -->
-    <footer>
-        <div class="footer__wrap">
-            <div class="logo__address">
-                <div class="logo__png">
-                    <img src="img/logo.svg" alt="Logo">
-                    <p>Smart Lean Group</p>
-                </div>
-                <address>
-                    <p class="address__name">Югорский Государственный Университет, 2022</p>
-                </address>
-            </div>
-            <div class="under__nav">
-                <ul>
-                    <li>Статьи</li>
-                    <li>Архив журнала</li>
-                    <li>Авторам</li>
-                    <li>О редакции</li>
-                </ul>
-            </div>
-            <div class="contacts">
-                <ul class="ul__contacts">
-                    <li><strong>Наши контакты</strong></li>
-                    <li>+7 800 555 35 35</li>
-                    <li>pochtatest@mail.ru</li>
-                    <li><img class="vkimg" src="img/vk.svg" alt="VK"> <img class="instimg" src="img/insta.svg" alt="inst"></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </body>
-
 </html>
