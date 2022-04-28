@@ -3,6 +3,10 @@ body{
     /* font-family: 'IBM Plex Sans', Roboto, sans-serif; */
     padding-top: 20px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Хедер */
 .wrapper{
@@ -369,6 +373,7 @@ footer .wrapper{
     border: none;
     border-radius: 30px;
     margin-right: 12px;
+    padding-left: 30px;
 }
 .subscribe-info button {
     width: 200px;

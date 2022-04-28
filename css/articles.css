@@ -1,0 +1,81 @@
+.article-container {
+    max-width: 268px;
+    background-color: #FDFDFD;
+    max-height: 390px;
+    margin-bottom: 60px;
+}
+.ecology-tag {
+    background-color: rgba(0, 255, 194);
+    border-radius: 15px;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FCFCFC;
+}
+.ecology-tag p{
+    padding-top: 4px;
+    margin: 0;
+}
+.Lean-tag{
+    background-color: #09E1D3;
+    border-radius: 15px;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FCFCFC;
+}
+.Lean-tag p{
+    padding-top: 4px;
+    margin: 0;
+}
+.ITLean-tag{
+    background-color: rgba(19, 190, 230, 1);
+    border-radius: 15px;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FCFCFC;
+}
+.ITLean-tag p{
+    padding-top: 4px;
+    margin: 0;
+}
+.article-tags{
+    margin-left: 15px;
+}
+.article-tags ul{
+    display: flex;
+    padding: 0;
+}
+.article-title{
+    max-width: 236px;
+}
+.article-title h2{
+    font-family: 'IBM Plex Serif';
+    color: #101010;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+    /* line-height: ; */
+}
+.article-info{
+    display: flex;
+    font-weight: 300;
+    color: rgba(16, 16, 16, 0.5);
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+}
+.article-main-blog{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    max-width: 863px;
+}
