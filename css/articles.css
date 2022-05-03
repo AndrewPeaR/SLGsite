@@ -1,3 +1,6 @@
+.main-wrapper{
+    display: flex;
+}
 .article-container {
     max-width: 268px;
     background-color: #FDFDFD;
@@ -75,7 +78,73 @@
 .article-main-blog{
     display: flex;
     justify-content: space-between;
-
     flex-wrap: wrap;
     max-width: 863px;
+    margin-right: 29px;
+}
+.article-filter{
+    max-width: 269px;
+    /* max-height: 379px; */
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #101010;
+    background-color: #FDFDFD;
+    padding-bottom: 26px;
+    padding-right: 22px;
+}
+.article-filter > p{
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', Roboto;
+    font-weight: 300;
+}
+.articles-filter-list{
+    max-width: 207px;
+    max-height: 50px;
+    background-color: #F7F7F7;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.articles-filter-list > p{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', Roboto;
+    font-weight: 300;
+    /* margin-right: 56px; */
+}
+.article-filter-tags > p{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', Roboto;
+    font-weight: 300;
+}
+.article-filter-tags > button{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 18px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #FCFCFC;
+    margin-bottom: 12px;
+}
+.article-filter-tags > button > img{
+    margin-right: 8px;
+}
+.ecology-filter{
+    background: #00FFC2;
+}
+.lean-filter{
+    background: #09E1D3;
+}
+.IT-lean-filter{
+    background: #13BEE6;
+}
+.article-filter-tags > button:hover{
+    background: #73e0f8;
+}
+.article-filter-tags > button:active{
+    background: #76ffdf;
 }
