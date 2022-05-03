@@ -7,6 +7,13 @@ a{
     text-decoration: none;
     color: inherit;
 }
+/* Анимации */
+.header-info-logo > a:hover{
+    background:#82e8ff;
+}
+.nav-item:first-child:hover{
+    background:#82e8ff;
+}
 
 /* Хедер */
 .wrapper{
@@ -21,7 +28,7 @@ a{
     font-size: 16px;
     margin-bottom: 55px;
 }
-.header-info-logo{
+.header-info > .header-info-logo{
     flex: 0 0 58%;
 }
 .header-info-logo{
@@ -29,8 +36,12 @@ a{
     align-items:center;
 }
 .logo-text{
-    color: 101010;
-    margin-left: 16px;
+    color: #101010;
+    display: flex;
+    align-items:center;
+}
+.logo-text > img{
+    margin-right: 16px;
 }
 .header-info input{
     max-width: 210px;
