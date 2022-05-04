@@ -97,24 +97,9 @@
     font-family: 'IBM Plex Sans', Roboto;
     font-weight: 300;
 }
-.articles-filter-list{
-    max-width: 207px;
-    max-height: 50px;
-    background-color: #F7F7F7;
-    padding: 16px 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
-}
-.articles-filter-list > p{
-    margin: 0;
-    font-size: 14px;
-    font-family: 'IBM Plex Sans', Roboto;
-    font-weight: 300;
-    /* margin-right: 56px; */
-}
 .article-filter-tags > p{
     margin: 0;
+    margin-top: 45px;
     margin-bottom: 20px;
     font-size: 14px;
     font-family: 'IBM Plex Sans', Roboto;
@@ -147,4 +132,41 @@
 }
 .article-filter-tags > button:active{
     background: #76ffdf;
+}
+
+/* Селект в фильтре */
+.select-wrapper{
+    position: relative;
+}
+.select-wrapper:after{
+    content: "";
+    display: block;
+	border-style: solid;
+	border-width: 7px 5.5px 0 5.5px;
+	border-color: #101010 transparent transparent transparent;
+    pointer-events: none;
+
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    z-index: 1;
+    margin-top: -2px;
+}
+.select-wrapper select{
+    /* display: block; */
+    width: 100%;
+    max-width: 207px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background: #F9F9F9;
+    border: none;
+    font-size: 14px;
+    color: #101010;
+    font-weight: 300;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.select-wrapper select:focus{
+    outline: none;
 }
