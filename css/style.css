@@ -19,7 +19,7 @@ a{
 .header-info-logo > a:hover{
     background:#82e8ff;
 }
-.nav-item:first-child:hover{
+.nav-item a:hover{
     background:#82e8ff;
 }
 
