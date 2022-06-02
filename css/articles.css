@@ -44,6 +44,10 @@
     padding-top: 4px;
     margin: 0;
 }
+.article-background img{
+    max-width: 268px;
+    max-height: 200px;
+}
 .article-tags{
     margin-left: 15px;
 }
@@ -53,9 +57,13 @@
 }
 .article-title{
     max-width: 236px;
+    height: 66px;
     margin-left: 15px;
+    overflow:hidden;
+    word-wrap: break-word;
 }
 .article-title h2{
+    margin: 0;
     font-family: 'IBM Plex Serif';
     color: #101010;
     font-weight: 700;

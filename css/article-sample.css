@@ -19,8 +19,7 @@
 .path-element:last-child::after{
     content: ""
 }
-.background-article{
-    background: url(/img/article-back.png) no-repeat center center;
+.background-article img{
     width: 100%;
     height: 500px;
     margin-bottom: 50px;
