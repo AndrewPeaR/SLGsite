@@ -23,24 +23,26 @@
 <body>
     <header>
         <div class="wrapper">
-            <div class="header-info">
-                <div class="header-info-logo">
-                    <a href="index.html">
-                        <div class="logo-text"><img class="logo" src="img/logo.svg" alt="Logo">Lean Green Smart</div>
-                    </a>
-                </div>
-                <input type="search" name="global-finder" placeholder="Поиск">
-                <button type="button">Отправить статью</button>
-            </div>
             <nav>
+                <div class="header-info">
+                    <div class="header-info-logo">
+                        <!-- <a href="{% url 'home' %}">
+                            <div class="logo-text"><img class="logo" src="{% static 'img/logo.svg'%}" alt="Logo">Lean Green Smart</div>
+                        </a> -->
+                    </div>
+                    <!-- <input type="search" name="global-finder" placeholder="Поиск"> -->
+                    <!-- <a href="{% url 'send_article' %}" class="header-send_article">Отправить статью</a> -->
+                </div>
                 <div class="nav-wrap">
                     <ul>
-                        <li class="nav-item"><a href="articles.html">Статьи</a></li>
-                        <li class="nav-item"><a href="archive-magazine.html">Архив журнала</a></li>
-                        <li class="nav-item"><a href="#">Авторам</a></li>
+                        <li class="nav-item"><a href="{% url 'home' %}">
+                                <img class="logo" src="{% static 'img/logo.svg'%}" alt="Logo">
+                            </a></li>
+                        <li class="nav-item"><a href="{% url 'home' %}">Главная</a></li>
+                        <li class="nav-item"><a href="{% url 'archive' %}">Архив журнала</a></li>
                         <li class="nav-item"><a href="#">О редакции</a></li>
-                        <li class="nav-item"><a href="#">Подписаться на рассылку</a></li>
                     </ul>
+                    <a href="{% url 'send_article' %}" class="header-send_article"><div class="btn-div">Отправить статью</div></a>
                 </div>
             </nav>
         </div>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&family=IBM+Plex+Serif:wght@400;700&family=Open+Sans:wght@400;800&display=swap"
+        rel="stylesheet">
+    <!-- нормалайзер -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Журнал СНО ЮГУ</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="nav-container">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="#">
+                            <img class="logo" src="img/logo.svg" alt="Logo">
+                        </a></li>
+                    <li class="nav-item active-nav-item"><a href="#">Главная</a></li>
+                    <li class="nav-item"><a href="#">Архив журнала</a></li>
+                    <li class="nav-item"><a href="#">О редакции</a></li>
+                    <li class="nav-item"><a href="#">Контакты</a></li>
+                </ul>
+                <a href="#">
+                    <div class="btn-active">Отправить статью</div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="mainblock">
+                <p>Студенческий журнал</p>
+                <h1>Бизнес трансформация:<br>управление улучшениями</h1>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="wrapper">
+            <div class="archiveblock">
+                <div class="h2-div">
+                    <h2>Последнее из архива</h2>
+                </div>
+            </div>
+        </div>
+        <div class="articlesblock">
+            <div class="wrapper">
+                <div class="articlesblock-content">
+                    <a href="#"><img class="main-cover" src="img/cover1.png" alt="Обложка"></a>
+                    <a href="#"><img class="main-cover" src="img/cover1.png" alt="Обложка"></a>
+                    <a href="#"><img class="main-cover" src="img/cover1.png" alt="Обложка"></a>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="#">
+                        <div class="btn-deactive">Перейти в архив</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="emailsentblock">
+        <div class="wrapper">
+            <form class="emailsent-form" action="#" method="post">
+                <h2>Подпишись на рассылку</h2>
+                <p>Оставь свою почту, чтобы первым узнавать о новых выпусках журнала</p>
+                <input type="email" id="emailinput" placeholder="Введите электронную почту">
+                <input type="submit" value="Подписаться" id="emailsubmit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-wrapper">
+                <div class="logo-address">
+                    <div class="logo-png">
+                        <img src="img/logo.svg" alt="Logo">
+                        <p>Бизнес трансформация: управление улучшениями</p>
+                    </div>
+                    <address>
+                        <p class="address-name">Югорский Государственный Университет, 2022</p>
+                    </address>
+                </div>
+                <div class="under-nav">
+                    <ul>
+                        <li class=""><a href="#">Статьи</a></li>
+                        <li class=""><a href="#">Архив журнала</a></li>
+                        <li class=""><a href="#">Авторам</a></li>
+                        <li class=""><a href="#">О редакции</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <ul class="ul-contacts">
+                        <li class=""><strong>Наши контакты</strong></li>
+                        <li class="">snojournal@ugrasu.ru</li>
+                        <li class="">snojournal@mail.ru</li>
+                        <li class=""><img class="vkimg" src="img/vk.svg" alt="VK"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

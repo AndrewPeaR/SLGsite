@@ -1,100 +1,56 @@
-.archive-bank-main{
-    margin-top: 100px;
-}
-.date-journal{
+.date-journals {
     font-family: 'IBM Plex Sans', Roboto;
     font-size: 24px;
     font-weight: 700;
     color: #101010;
-    margin-bottom: 50px;
+    margin: 0;
+    margin-bottom: 30px;
 }
-.journal-issue-one{
-    display: flex;
-    background-color: #FDFDFD;
-}
-.main-block-journal{
+.date-journals:after {
+    content: "";
+    margin-top: 9px;
+    display: block;
     width: 100%;
-    margin-left: 30px;
+    height: 6px;
+    background-color: #F7F7F7;
 }
-.main-picture-journal{
+.card-journal {
     max-width: 268px;
-    /* margin-right: 30px; */
+    margin-bottom: 60px;
+}
+.journal-background{
+    width: 100%;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .number-journal{
     margin: 0;
-    margin-top: 40px;
     margin-bottom: 14px;
 }
-.journal-info{
+.date-block {
     display: flex;
-    font-weight: 300;
-    color: #3E3E3E;
 }
-.info-journal{
+.info-journal {
     margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    color: #3E3E3E;
     margin-right: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
-.header-journal{
+.block-journals{
     display: flex;
     justify-content: space-between;
 }
-.header-journal > img{
-    padding-right: 30px;
+.download-btn{
+    height: 40px;
+    border: none;
+    background: none;
 }
-.article-card{
-    background-image: url(/img/pic01.png);
-    max-width: 267px;
-    height: 200px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
-.article-card:nth-child(3n+1){
-    margin-left: 0;
-}
-.artcile-card-tags{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-}
-.wrapper-for-blur{
-    backdrop-filter: blur(6px);
-    padding: 72px 29px 30px 16px;
-}
-.article-card-header{
-    margin: 0;
-    margin-top: 12px;
-    font-family: 'IBM Plex Serif', Roboto;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FCFCFC;
-    line-height: 22px;
-}
-.style-tags{
-    width: 47px;
-    border-radius: 15px;
-    padding: 5px 14px;
-    text-align: center;
-    margin-right: 4px;
-    font-size: 10px;
-    font-weight: 700;
-    color: #FCFCFC;
-}
-.Ecology-card-tag{
-    background-color: #00FFC2;
-}
-.BP-card-tag{
-    background-color: #09E1D3;
-}
-.ITLean-card-tag{
-    background-color: #13BEE6;
-}
-.articles-of-journal{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-}
-.journal-issue-one{
-    margin-bottom: 50px;
+.download-btn:active{
+    background-color: #F7F7F7;
+    border-radius: 5px;
 }
